@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b88e0c4-1eb0-4da9-ac6c-3d7fac170676" name="Changes" comment="Adding User entity class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/repositories/UserRepository.java" afterDir="false" />
+    <list default="true" id="8b88e0c4-1eb0-4da9-ac6c-3d7fac170676" name="Changes" comment="Adding User repository">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683897962404</updated>
-      <workItem from="1683897964758" duration="3667000" />
+      <workItem from="1683897964758" duration="4860000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1683898555622</created>
@@ -127,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684157479118</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding User repository">
+      <created>1684157773657</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684157773657</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +154,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Adding User entity class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding User entity class" />
+    <MESSAGE value="Adding User repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding User repository" />
   </component>
 </project>
