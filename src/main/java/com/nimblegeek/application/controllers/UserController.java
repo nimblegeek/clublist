@@ -1,6 +1,6 @@
 package com.nimblegeek.application.controllers;
 
-import com.nimblegeek.application.entities.User;
+import com.nimblegeek.application.entities.Club;
 import com.nimblegeek.application.repositories.UserRepository;
 import org.springframework.web.bind.annotation.*;
 
@@ -19,12 +19,12 @@ public class UserController {
     }
 
     @GetMapping("/users")
-    public List<User> getUsers() {
-        return (List<User>) userRepository.findAll();
+    public List<Club> getUsers() {
+        return (List<Club>) userRepository.findAll();
     }
 
     @PostMapping("/users")
-    void addUser(@RequestBody User user) {
-        userRepository.save(user);
+    void addUser(@RequestBody Club club) {
+        userRepository.save(club);
     }
 }
