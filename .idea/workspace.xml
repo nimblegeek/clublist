@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b88e0c4-1eb0-4da9-ac6c-3d7fac170676" name="Changes" comment="Bootstrapping the application">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+    <list default="true" id="8b88e0c4-1eb0-4da9-ac6c-3d7fac170676" name="Changes" comment="Changing name on class, bypassing SQL error.">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/entities/Club.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/controllers/ClubController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/entities/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/entities/Club.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/repositories/ClubRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +29,14 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
         <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
@@ -134,7 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683897962404</updated>
       <workItem from="1683897964758" duration="7353000" />
-      <workItem from="1684485743802" duration="2664000" />
+      <workItem from="1684485743802" duration="3081000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1683898555622</created>
@@ -178,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684239571413</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Changing name on class, bypassing SQL error.">
+      <created>1684496646881</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684496646881</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +208,7 @@
     <MESSAGE value="Adding User repository" />
     <MESSAGE value="Adding restcontroller" />
     <MESSAGE value="Bootstrapping the application" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bootstrapping the application" />
+    <MESSAGE value="Changing name on class, bypassing SQL error." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing name on class, bypassing SQL error." />
   </component>
 </project>

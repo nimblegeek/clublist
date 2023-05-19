@@ -9,7 +9,7 @@ import jakarta.persistence.Id;
 public class Club {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private final String name;
     private final String email;

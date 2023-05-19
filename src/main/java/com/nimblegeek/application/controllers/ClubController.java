@@ -1,30 +1,30 @@
 package com.nimblegeek.application.controllers;
 
 import com.nimblegeek.application.entities.Club;
-import com.nimblegeek.application.repositories.UserRepository;
+import com.nimblegeek.application.repositories.ClubRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
-public class UserController {
+public class ClubController {
 
     // standard constructors
 
-    private final UserRepository userRepository;
+    private final ClubRepository clubRepository;
 
-    public UserController(UserRepository userRepository) {
-        this.userRepository = userRepository;
+    public ClubController(ClubRepository clubRepository) {
+        this.clubRepository = clubRepository;
     }
 
     @GetMapping("/users")
     public List<Club> getUsers() {
-        return (List<Club>) userRepository.findAll();
+        return (List<Club>) clubRepository.findAll();
     }
 
     @PostMapping("/users")
     void addUser(@RequestBody Club club) {
-        userRepository.save(club);
+        clubRepository.save(club);
     }
 }

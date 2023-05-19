@@ -1,7 +1,7 @@
 package com.nimblegeek.application;
 
 import com.nimblegeek.application.entities.Club;
-import com.nimblegeek.application.repositories.UserRepository;
+import com.nimblegeek.application.repositories.ClubRepository;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -18,13 +18,13 @@ public class Application {
 	}
 
 	@Bean
-	CommandLineRunner init(UserRepository userRepository) {
+	CommandLineRunner init(ClubRepository clubRepository) {
 		return args -> {
 			Stream.of("John", "Julie", "Jennifer", "Helen", "Rachel").forEach(name -> {
 				Club club = new Club(name, name.toLowerCase() + "@domain.com");
-				userRepository.save(club);
+				clubRepository.save(club);
 			});
-			userRepository.findAll().forEach(System.out::println);
+			clubRepository.findAll().forEach(System.out::println);
 		};
 	}
 }
