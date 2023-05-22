@@ -4,11 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b88e0c4-1eb0-4da9-ac6c-3d7fac170676" name="Changes" comment="Changing name on class, bypassing SQL error.">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/controllers/ClubController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/entities/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/entities/Club.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/repositories/ClubRepository.java" afterDir="false" />
+    <list default="true" id="8b88e0c4-1eb0-4da9-ac6c-3d7fac170676" name="Changes" comment="Updating html file with bootstrap package link.">
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +86,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -134,7 +155,8 @@
       <option name="presentableId" value="Default" />
       <updated>1683897962404</updated>
       <workItem from="1683897964758" duration="7353000" />
-      <workItem from="1684485743802" duration="3081000" />
+      <workItem from="1684485743802" duration="3920000" />
+      <workItem from="1684754860667" duration="1186000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1683898555622</created>
@@ -185,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684496646881</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Renaming class references and adding test files">
+      <created>1684497130673</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684497130673</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,12 +232,16 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Adding User entity class" />
     <MESSAGE value="Adding User repository" />
     <MESSAGE value="Adding restcontroller" />
     <MESSAGE value="Bootstrapping the application" />
     <MESSAGE value="Changing name on class, bypassing SQL error." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing name on class, bypassing SQL error." />
+    <MESSAGE value="Renaming class references and adding test files" />
+    <MESSAGE value="Adding angular client directory." />
+    <MESSAGE value="Updating html file with bootstrap package link." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating html file with bootstrap package link." />
   </component>
 </project>
