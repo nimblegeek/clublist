@@ -4,31 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b88e0c4-1eb0-4da9-ac6c-3d7fac170676" name="Changes" comment="Updating html file with bootstrap package link.">
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/.vscode/extensions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/.vscode/tasks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/tsconfig.spec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8b88e0c4-1eb0-4da9-ac6c-3d7fac170676" name="Changes" comment="Updating html file with bootstrap package.">
+      <change beforePath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +81,8 @@
     "project.structure.proportion": "0.24961832",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "spring.configuration.checksum": "fe01ce2a7fbac8fafaed7c982a04e229"
+    "spring.configuration.checksum": "fe01ce2a7fbac8fafaed7c982a04e229",
+    "ts.external.directory.path": "/Users/fam.sihlen/develop/clublist/src/main/js/application/angularclient/node_modules/typescript/lib"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -156,7 +134,7 @@
       <updated>1683897962404</updated>
       <workItem from="1683897964758" duration="7353000" />
       <workItem from="1684485743802" duration="3920000" />
-      <workItem from="1684754860667" duration="1186000" />
+      <workItem from="1684754860667" duration="1530000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1683898555622</created>
@@ -214,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684497130673</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updating html file with bootstrap package.">
+      <created>1684756515815</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684756515815</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +227,7 @@
     <MESSAGE value="Renaming class references and adding test files" />
     <MESSAGE value="Adding angular client directory." />
     <MESSAGE value="Updating html file with bootstrap package link." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating html file with bootstrap package link." />
+    <MESSAGE value="Updating html file with bootstrap package." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating html file with bootstrap package." />
   </component>
 </project>
