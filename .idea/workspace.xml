@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b88e0c4-1eb0-4da9-ac6c-3d7fac170676" name="Changes" comment="Adding a string field and constructor to initialize it.">
-      <change beforePath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.component.html" afterDir="false" />
+    <list default="true" id="8b88e0c4-1eb0-4da9-ac6c-3d7fac170676" name="Changes" comment="Updating the app component html file for standard list structure.">
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/model/club.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/model/club.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/entities/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nimblegeek/application/entities/Club.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/js/application/angularclient/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/js/application/angularclient/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/js/application/angularclient/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/tsconfig.spec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,37 +67,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.24961832",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "spring.configuration.checksum": "fe01ce2a7fbac8fafaed7c982a04e229",
-    "ts.external.directory.path": "/Users/fam.sihlen/develop/clublist/src/main/js/application/angularclient/node_modules/typescript/lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.24961832&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;fe01ce2a7fbac8fafaed7c982a04e229&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/fam.sihlen/develop/clublist/src/main/js/application/angularclient/node_modules/typescript/lib&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "h2"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;h2&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/js/application/angularclient" />
+      <recent name="$PROJECT_DIR$/src/main/js/application" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -134,7 +142,8 @@
       <updated>1683897962404</updated>
       <workItem from="1683897964758" duration="7353000" />
       <workItem from="1684485743802" duration="3920000" />
-      <workItem from="1684754860667" duration="1726000" />
+      <workItem from="1684754860667" duration="2934000" />
+      <workItem from="1684998618810" duration="2424000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1683898555622</created>
@@ -206,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684756750618</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updating the app component html file for standard list structure.">
+      <created>1684756913774</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684756913774</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +252,19 @@
     <MESSAGE value="Updating html file with bootstrap package link." />
     <MESSAGE value="Updating html file with bootstrap package." />
     <MESSAGE value="Adding a string field and constructor to initialize it." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding a string field and constructor to initialize it." />
+    <MESSAGE value="Updating the app component html file for standard list structure." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating the app component html file for standard list structure." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nimblegeek/application/entities/Club.java</url>
+          <line>14</line>
+          <properties field="email" class="com.nimblegeek.application.entities.Club" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

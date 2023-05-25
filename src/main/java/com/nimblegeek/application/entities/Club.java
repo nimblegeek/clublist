@@ -9,8 +9,8 @@ import jakarta.persistence.Id;
 public class Club {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
     private final String name;
     private final String email;
 
@@ -24,7 +24,7 @@ public class Club {
         this.email = email;
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
@@ -38,6 +38,6 @@ public class Club {
 
     @Override
     public String toString() {
-        return "User{" + "id=" + id + ", name=" + name + ", email=" + email + '}';
+        return "Club{" + "id=" + id + ", name=" + name + ", email=" + email + '}';
     }
 }
