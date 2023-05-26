@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b88e0c4-1eb0-4da9-ac6c-3d7fac170676" name="Changes" comment="Preparing the HTML form for persisting a new club in the database.">
+    <list default="true" id="8b88e0c4-1eb0-4da9-ac6c-3d7fac170676" name="Changes" comment="Configuring module so requests can be dispatched to matching components.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/club-form/club-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/club-form/club-form.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +154,7 @@
       <workItem from="1684485743802" duration="3920000" />
       <workItem from="1684754860667" duration="2934000" />
       <workItem from="1684998618810" duration="5684000" />
-      <workItem from="1685130683539" duration="1978000" />
+      <workItem from="1685130683539" duration="3381000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1683898555622</created>
@@ -276,7 +275,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685132415964</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Preparing the HTML form for persisting a new club in the database.">
+      <created>1685132680810</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1685132680810</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Configuring module so requests can be dispatched to matching components.">
+      <created>1685132823439</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1685132823439</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +326,8 @@
     <MESSAGE value="Updating with boilerplate HTML structure for club list." />
     <MESSAGE value="Adding club form and related component" />
     <MESSAGE value="Preparing the HTML form for persisting a new club in the database." />
-    <option name="LAST_COMMIT_MESSAGE" value="Preparing the HTML form for persisting a new club in the database." />
+    <MESSAGE value="Configuring module so requests can be dispatched to matching components." />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuring module so requests can be dispatched to matching components." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
