@@ -20,7 +20,7 @@ public class Application {
 	@Bean
 	CommandLineRunner init(ClubRepository clubRepository) {
 		return args -> {
-			Stream.of("John", "Julie", "Jennifer", "Helen", "Rachel").forEach(name -> {
+			Stream.of("Bålsta Dojo", "FrontLine Academy", "Nacka Dojo").forEach(name -> {
 				Club club = new Club(name, name.toLowerCase() + "@domain.com");
 				clubRepository.save(club);
 			});
