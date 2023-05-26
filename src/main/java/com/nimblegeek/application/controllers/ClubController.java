@@ -18,13 +18,13 @@ public class ClubController {
         this.clubRepository = clubRepository;
     }
 
-    @GetMapping("/users")
-    public List<Club> getUsers() {
+    @GetMapping("/clubs")
+    public List<Club> getClubs() {
         return (List<Club>) clubRepository.findAll();
     }
 
-    @PostMapping("/users")
-    void addUser(@RequestBody Club club) {
+    @PostMapping("/clubs")
+    void addClub(@RequestBody Club club) {
         clubRepository.save(club);
     }
 }
