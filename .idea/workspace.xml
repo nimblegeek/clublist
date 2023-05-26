@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b88e0c4-1eb0-4da9-ac6c-3d7fac170676" name="Changes" comment="Specifying provider for the ClubService class for Angular injection">
-      <change beforePath="$PROJECT_DIR$/src/main/js/application/angularclient/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/index.html" afterDir="false" />
+    <list default="true" id="8b88e0c4-1eb0-4da9-ac6c-3d7fac170676" name="Changes" comment="Updating name">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +153,7 @@
       <workItem from="1684485743802" duration="3920000" />
       <workItem from="1684754860667" duration="2934000" />
       <workItem from="1684998618810" duration="5684000" />
-      <workItem from="1685130683539" duration="3687000" />
+      <workItem from="1685130683539" duration="4104000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1683898555622</created>
@@ -295,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685134156002</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Updating name">
+      <created>1685134432720</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1685134432720</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +341,8 @@
     <MESSAGE value="Preparing the HTML form for persisting a new club in the database." />
     <MESSAGE value="Configuring module so requests can be dispatched to matching components." />
     <MESSAGE value="Specifying provider for the ClubService class for Angular injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Specifying provider for the ClubService class for Angular injection" />
+    <MESSAGE value="Updating name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
