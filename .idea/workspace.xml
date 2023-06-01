@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b88e0c4-1eb0-4da9-ac6c-3d7fac170676" name="Changes" comment="Configuring module so requests can be dispatched to matching components.">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="8b88e0c4-1eb0-4da9-ac6c-3d7fac170676" name="Changes" comment="Updating README and resetting the branch after succesfully reinstalled node.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +157,7 @@
       <workItem from="1684754860667" duration="2934000" />
       <workItem from="1684998618810" duration="5684000" />
       <workItem from="1685130683539" duration="4778000" />
+      <workItem from="1685362655034" duration="2246000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1683898555622</created>
@@ -317,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685135371638</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Updating README and resetting the branch after succesfully reinstalled node.">
+      <created>1685362763360</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1685362763360</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +369,8 @@
     <MESSAGE value="Updating name" />
     <MESSAGE value="Updating README" />
     <MESSAGE value="Updating errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating errors" />
+    <MESSAGE value="Updating README and resetting the branch after succesfully reinstalled node." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating README and resetting the branch after succesfully reinstalled node." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
