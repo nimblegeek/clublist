@@ -9,7 +9,7 @@ export class ClubService {
   private clubsUrl: string;
 
   constructor(private http: HttpClient) {
-    this.clubsUrl = 'http://localhost:8080/users';
+    this.clubsUrl = 'http://localhost:8080/clubs';
   }
 
   public findAll(): Observable<Club[]> {

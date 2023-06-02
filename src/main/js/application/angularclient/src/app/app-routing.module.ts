@@ -5,7 +5,7 @@ import { ClubFormComponent } from './club-form/club-form.component';
 
 const routes: Routes = [
   { path: 'clubs', component: ClubListComponent },
-  { path: 'addClub', component: ClubFormComponent }
+  { path: 'addclub', component: ClubFormComponent }
 ];
 
 @NgModule({

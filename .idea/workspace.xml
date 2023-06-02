@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b88e0c4-1eb0-4da9-ac6c-3d7fac170676" name="Changes" comment="Minor updates naming components.">
+    <list default="true" id="8b88e0c4-1eb0-4da9-ac6c-3d7fac170676" name="Changes" comment="list and form components working now.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/service/club-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/service/club-service.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +84,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.24961832&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;fe01ce2a7fbac8fafaed7c982a04e229&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/fam.sihlen/develop/clublist/src/main/js/application/angularclient/node_modules/typescript/lib&quot;
   },
@@ -108,7 +108,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
       <method v="2" />
     </configuration>
@@ -158,7 +158,8 @@
       <workItem from="1684754860667" duration="2934000" />
       <workItem from="1684998618810" duration="5684000" />
       <workItem from="1685130683539" duration="4778000" />
-      <workItem from="1685362655034" duration="3185000" />
+      <workItem from="1685362655034" duration="3964000" />
+      <workItem from="1685627287246" duration="2369000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1683898555622</created>
@@ -335,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685625443947</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="list and form components working now.">
+      <created>1685626504067</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1685626504067</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +362,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Initial commit" />
     <MESSAGE value="Adding User entity class" />
     <MESSAGE value="Adding User repository" />
     <MESSAGE value="Adding restcontroller" />
@@ -379,6 +386,7 @@
     <MESSAGE value="Updating errors" />
     <MESSAGE value="Updating README and resetting the branch after succesfully reinstalled node." />
     <MESSAGE value="Minor updates naming components." />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor updates naming components." />
+    <MESSAGE value="list and form components working now." />
+    <option name="LAST_COMMIT_MESSAGE" value="list and form components working now." />
   </component>
 </project>
