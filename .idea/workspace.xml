@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b88e0c4-1eb0-4da9-ac6c-3d7fac170676" name="Changes" comment="Final commit for project setup. Club list and form working!">
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/club-list/club-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/js/application/angularclient/src/app/club-list/club-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nimblegeek/application/ApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nimblegeek/application/ApplicationTests.class" afterDir="false" />
+    <list default="true" id="8b88e0c4-1eb0-4da9-ac6c-3d7fac170676" name="Changes" comment="Database config.">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +172,7 @@
       <workItem from="1686836178147" duration="475000" />
       <workItem from="1687297221851" duration="22000" />
       <workItem from="1687298062455" duration="1205000" />
-      <workItem from="1687763965828" duration="2112000" />
+      <workItem from="1687763965828" duration="2489000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1683898555622</created>
@@ -369,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685705500102</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Database config.">
+      <created>1687782778841</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1687782778841</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +389,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding User repository" />
     <MESSAGE value="Adding restcontroller" />
     <MESSAGE value="Bootstrapping the application" />
     <MESSAGE value="Changing name on class, bypassing SQL error." />
@@ -413,6 +413,7 @@
     <MESSAGE value="Minor updates naming components." />
     <MESSAGE value="list and form components working now." />
     <MESSAGE value="Final commit for project setup. Club list and form working!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final commit for project setup. Club list and form working!" />
+    <MESSAGE value="Database config." />
+    <option name="LAST_COMMIT_MESSAGE" value="Database config." />
   </component>
 </project>
