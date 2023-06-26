@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b88e0c4-1eb0-4da9-ac6c-3d7fac170676" name="Changes" comment="Adding docker compose file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="8b88e0c4-1eb0-4da9-ac6c-3d7fac170676" name="Changes" comment="Restructuring config details.">
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +172,7 @@
       <workItem from="1686836178147" duration="475000" />
       <workItem from="1687297221851" duration="22000" />
       <workItem from="1687298062455" duration="1205000" />
-      <workItem from="1687763965828" duration="3555000" />
+      <workItem from="1687763965828" duration="3607000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1683898555622</created>
@@ -378,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687783511893</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Restructuring config details.">
+      <created>1687785229040</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1687785229040</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,7 +403,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Bootstrapping the application" />
     <MESSAGE value="Changing name on class, bypassing SQL error." />
     <MESSAGE value="Renaming class references and adding test files" />
     <MESSAGE value="Adding angular client directory." />
@@ -422,6 +427,7 @@
     <MESSAGE value="Final commit for project setup. Club list and form working!" />
     <MESSAGE value="Database config." />
     <MESSAGE value="Adding docker compose file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding docker compose file" />
+    <MESSAGE value="Restructuring config details." />
+    <option name="LAST_COMMIT_MESSAGE" value="Restructuring config details." />
   </component>
 </project>

@@ -1,8 +1,4 @@
-  management.security.enabled=false
-    
-    spring.datasource.name=ecommercedb
-    spring.jpa.show-sql=false
-
+version: '3.1'
   # Starts postgres for local development in either of two modes:
   # docker-compose up postgres
   # docker-compose up postgres-transient
