@@ -1,27 +1,26 @@
 package com.nimblegeek.application.entities;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
 public class Club {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @Column(nullable = false)
     private final String name;
-    private final String email;
+    private final String website;
 
     public Club() {
         this.name = "";
-        this.email = "";
+        this.website = "";
     }
 
-    public Club(String name, String email) {
+    public Club(String name, String website) {
         this.name = name;
-        this.email = email;
+        this.website = website;
     }
 
     public Long getId() {
@@ -32,12 +31,12 @@ public class Club {
         return name;
     }
 
-    public String getEmail() {
-        return email;
+    public String getWebsite() {
+        return website;
     }
 
     @Override
     public String toString() {
-        return "Club{" + "id=" + id + ", name=" + name + ", email=" + email + '}';
+        return "Club{" + "id=" + id + ", name=" + name + ", email=" + website + '}';
     }
 }
