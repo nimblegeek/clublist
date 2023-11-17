@@ -12,8 +12,8 @@ export class ClubService {
     this.clubsUrl = 'http://localhost:8080/clubs';
   }
 
-  public findAll(): Observable<Club[]> {
-    return this.http.get<Club[]>(this.clubsUrl);
+  findAll() {
+    return this.http.get<Club[]>('http://localhost:8080/clubs');
   }
 
   public save(club: Club) {
